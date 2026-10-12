@@ -13,9 +13,5 @@
     <!-- Misc Dependencies -->
     <!-- Temporarily allowed to fetch misc deps outside of halcyon remotes -->
     <!-- Once everything is merged to halcyon remotes, external remotes WILL NOT BE ALLOWED -->
-    <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-23.2" />
-    <!-- <project name="ibratabian17/android_hardware_qcom_display" path="hardware/qcom-caf/sdm845/display" remote="github" revision="lineage-23.2" /> -->
-    <!-- <project name="ibratabian17/android_hardware_qcom_audio" path="hardware/qcom-caf/sdm845/audio" remote="github" revision="lineage-23.2" /> -->
-    <!-- <project name="ibratabian17/android_hardware_qcom-caf_common" path="hardware/qcom-caf/common" remote="github" revision="lineage-23.2" /> -->
-    <!-- <project name="ibratabian17/android_device_qcom_sepolicy_vndr_legacy-um" path="device/qcom/sepolicy_vndr/legacy-um" remote="github" revision="lineage-23.2" /> -->
+    <project name="hardware_xiaomi" path="hardware/xiaomi" remote="halcyon" />
 </manifest>
