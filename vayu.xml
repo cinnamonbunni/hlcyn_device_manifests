@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- POCO X3 Pro (vayu) Device Manifest for Halcyon 17.0-->
+
+    <!-- Device core repos -->
+    <!-- Must be pushed into Halcyon organisation without exception -->
+    <project path="device/xiaomi/vayu" name="device_xiaomi_vayu" remote="halcyon-device" />
+    <project path="device/xiaomi/sm8150-common" name="device_xiaomi_sm8150-common" remote="halcyon-device" />
+    <project path="kernel/xiaomi/sm8150" name="kernel_xiaomi_sm8150" remote="halcyon-device" />
+    <project path="vendor/xiaomi/sm8150-common" name="vendor_xiaomi_sm8150-common" remote="halcyon-blobs" />
+    <project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" remote="halcyon-blobs" />
+
+    <!-- Misc Dependencies -->
+    <!-- Temporarily allowed to fetch misc deps outside of halcyon remotes -->
+    <!-- Once everything is merged to halcyon remotes, external remotes WILL NOT BE ALLOWED -->
+    <project name="hardware_xiaomi" path="hardware/xiaomi" remote="halcyon" />
+</manifest>
