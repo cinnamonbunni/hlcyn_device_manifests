@@ -14,12 +14,11 @@
     <project name="hardware_xiaomi" path="hardware/xiaomi" remote="halcyon" />
     <project name="device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="halcyon" />
 
+    <project name="packages_halcyon_apps_FMRadio" path="packages/halcyon/apps/FMRadio" remote="halcyon" />
+    <project name="packages_halcyon_apps_Dolby" path="packages/halcyon/apps/Dolby" remote="halcyon" />
+
     <!-- Misc Dependencies -->
     <!-- Temporarily allowed to fetch misc deps outside of halcyon remotes -->
     <!-- Once everything is merged to halcyon remotes, external remotes WILL NOT BE ALLOWED -->
-
-    <!-- Temp: Add Revamped FM Radio -->
-    <!-- If herobuxx approved this, all of this externals will be gone -->
-    <project name="TracenPlayground/packages_apps_RevampedFMRadio" path="packages/apps/RevampedFMRadio" remote="github" revision="mtk" />
 
 </manifest>
