@@ -5,13 +5,13 @@
     <!-- Device core repos -->
     <!-- Must be pushed into Halcyon organisation without exception -->
     <project name="device_xiaomi_surya" path="device/xiaomi/surya" remote="halcyon-device" />
-    <project name="kernel_xiaomi_sm6150" path="kernel/xiaomi/surya" remote="halcyon-device" />
+    <project name="kernel_xiaomi_surya" path="kernel/xiaomi/surya" remote="halcyon-device" />
     <project name="vendor_xiaomi_surya" path="vendor/xiaomi/surya" remote="halcyon-blobs" />
 
     <!-- Misc Dependencies -->
     <!-- Temporarily allowed to fetch misc deps outside of halcyon remotes -->
     <!-- Once everything is merged to halcyon remotes, external remotes WILL NOT BE ALLOWED -->
-    <project name="device_xiaomi_miuicamera-surya" path="device/xiaomi/miuicamera-surya" remote="halcyon-device" />
     <project name="vendor_xiaomi_miuicamera-surya" path="vendor/xiaomi/miuicamera-surya" remote="halcyon-blobs" />
     <project name="hardware_xiaomi" path="hardware/xiaomi" remote="halcyon" />
+    <project name="packages_halcyon_apps_FMRadio" path="packages/halcyon/apps/FMRadio" remote="halcyon" />
 </manifest>
